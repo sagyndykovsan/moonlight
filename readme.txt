@@ -1,3 +1,5 @@
+Дамп базы данных moonlight.sql
+
 Данные для подключения к базе данных менять в includes/dbh.inc.php
 
 все фукнции выделены в файле includes/functions.inc.php
