@@ -5,7 +5,7 @@ require_once 'header.php';
 		<div class="row">
 			<ul class="sort__list">
 				<h4>Sort by: </h4>
-				<li class="sort__item" data-sort="1">username
+				<li class="sort__item" data-sort="1">Username
 					<span class="sort__arrow"></span>
 				</li>
 				<li class="sort__item" data-sort="2">Name<span class="sort__arrow"></span></li>
