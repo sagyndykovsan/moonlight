@@ -53,7 +53,7 @@ if ($_SESSION['role'] === 'admin') {
 	// collecting all users in one table
 
 	if ($result = $conn->query($query)) {
-		$output .= '<table><tr><th>Логин</th><th>Имя</th><th>Фамилие</th><th>Пол</th><th>Дата рождения</th><th></th></tr>';
+		$output .= '<table><tr><th>Username</th><th>Name</th><th>Lastname</th><th>Пол</th><th>Birthday</th><th></th></tr>';
 		foreach($result as $row) {
 			$output .= '<tr><td>'.$row['username'].'</td>
 						<td>'.$row['name'].'</td>

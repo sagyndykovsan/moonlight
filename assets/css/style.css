@@ -55,6 +55,10 @@ ul, li {
 	color: #000;
 }
 
+.nav__link {
+	text-transform: uppercase;
+}
+
 .nav__list {
 	display: flex;
 

@@ -23,10 +23,10 @@ if ($_SESSION['role'] === 'admin') {
 		<div class="middle">
 		<div class="login-form">
 			<form action="/includes/login.inc.php" method="POST">
-				<h1 class="login-form__title">Вход</h1>
-				<input class="login-form__input" type="text" name="username" placeholder="Логин" >
-				<input class="login-form__input" type="password" name="password" placeholder="Пароль">
-				<button class="login-form__btn" type="submit" name="submit" value="submit">Войти</button>
+				<h1 class="login-form__title">Login</h1>
+				<input class="login-form__input" type="text" name="username" placeholder="username" >
+				<input class="login-form__input" type="password" name="password" placeholder="password">
+				<button class="login-form__btn" type="submit" name="submit" value="submit">Login</button>
 			</form>
 		</div>
 		</div>

@@ -1,5 +1,13 @@
-Данные для подключения к базе данных менять в includes/dbh.inc.php
+database dump "moonlight.sql"
 
-пользователь с правами администратора на сайте
-логин: admin
-пароль: 123
+change database connection credentials in file "includes/dbh.inc.php"
+
+all functions are located in "includes/functions.inc.php"
+the rest files handling requests
+
+login credentials for administrator
+username: admin
+password: 123
+
+10 users displayed on 1 page, if amount of users
+greater than 10, then pagination appears

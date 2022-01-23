@@ -27,8 +27,8 @@ if ($_SESSION['role'] !== 'admin') {
 				</div>
 				<ul class="nav__list">
 					<li class="nav__item">
-						<a href="includes/logout.inc.php" class="nav__link">Выйти</a>
-						<img src="assets/img/logout.png" class="nav__icon" alt="иконка">
+						<a href="includes/logout.inc.php" class="nav__link">logout</a>
+						<img src="assets/img/logout.png" class="nav__icon" alt="icon">
 					</li>
 				</ul>
 			</div>

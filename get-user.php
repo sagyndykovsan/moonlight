@@ -9,28 +9,28 @@ $user = userExists($_GET['username'], $conn);
 <div class="main container">
 		<div class="user-profile">
 				<div class="row">
-					<span>Логин: </span><span><?php echo $user['username']; ?></span>
+					<span>Username: </span><span><?php echo $user['username']; ?></span>
 				</div>
 				<div class="row">
-					<span>Имя: </span><span><?php echo $user['name']; ?></span>
+					<span>Name: </span><span><?php echo $user['name']; ?></span>
 				</div>
 				<div class="row">
-					<span>Фамилие: </span><span><?php echo $user['lastname']; ?></span>
+					<span>Lastname: </span><span><?php echo $user['lastname']; ?></span>
 				</div>
 				<div class="row">
-					<span>Пол: </span><span><?php
+					<span>Gender: </span><span><?php
 					if ($user['gender'] === 'male') {
-						echo 'Мужской';
+						echo 'Male';
 					} else {
-						echo "Женский";
+						echo "Female";
 					}
 
 				?></span>
 				</div>
 				<div class="row">
-					<span>Дата рождения: </span><span><?php echo $user['birthday']; ?></span>
+					<span>Birthday: </span><span><?php echo $user['birthday']; ?></span>
 				</div>
-				<a href="admin-panel.php" class="user-form__btn">Вернуться</a>
+				<a href="admin-panel.php" class="user-form__btn">Return</a>
 		</div>
 </body>
 </html>

@@ -4,16 +4,16 @@ require_once 'header.php';
 	<div class="main container">
 		<div class="row">
 			<ul class="sort__list">
-				<h4>Сортировать по: </h4>
-				<li class="sort__item" data-sort="1">Логину
+				<h4>Sort by: </h4>
+				<li class="sort__item" data-sort="1">username
 					<span class="sort__arrow"></span>
 				</li>
-				<li class="sort__item" data-sort="2">Имени<span class="sort__arrow"></span></li>
-				<li class="sort__item" data-sort="3">Фамилии<span class="sort__arrow"></span></li>
-				<li class="sort__item" data-sort="4">Полу<span class="sort__arrow"></span></li>
-				<li class="sort__item" data-sort="5">Дате рождения<span class="sort__arrow"></span></li>
+				<li class="sort__item" data-sort="2">Name<span class="sort__arrow"></span></li>
+				<li class="sort__item" data-sort="3">Lastname<span class="sort__arrow"></span></li>
+				<li class="sort__item" data-sort="4">Gender<span class="sort__arrow"></span></li>
+				<li class="sort__item" data-sort="5">Birthday<span class="sort__arrow"></span></li>
 			</ul>
-			<a id="useradd" href="create-user.php">Добавить пользователя <img class="useradd__icon" src="assets/img/plus.png" alt=""></a>
+			<a id="useradd" href="create-user.php">Add user <img class="useradd__icon" src="assets/img/plus.png" alt=""></a>
 		</div>
 		<div class="users__list">
 			
@@ -22,11 +22,11 @@ require_once 'header.php';
 	<div class="modal">
 		<div class="modal__window">
 		<div class="modal__text">
-			Удалить пользователя: "<span class="modal__user"></span>"?
+			Delete user: "<span class="modal__user"></span>"?
 		</div>
 		<div class="modal__btns">
-			<div id="modal-yes" class="modal__btn modal__yes">Да</div>
-			<div id="modal-no" class="modal__btn modal__no">Нет</div>
+			<div id="modal-yes" class="modal__btn modal__yes">Yes</div>
+			<div id="modal-no" class="modal__btn modal__no">No</div>
 		</div>
 	</div>
 	</div>
