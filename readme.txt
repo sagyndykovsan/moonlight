@@ -1,14 +1,13 @@
-Дамп базы данных moonlight.sql
+database dump "moonlight.sql"
 
-Данные для подключения к базе данных менять в includes/dbh.inc.php
+change database connection credentials in file "includes/dbh.inc.php"
 
-все фукнции выделены в файле includes/functions.inc.php
-остальные же файлы в папке includes служат обработчиками
+all functions are located in "includes/functions.inc.php"
+the rest files handling requests
 
-пользователь с правами администратора на сайте
-логин: admin
-пароль: 123
+login credentials for administrator
+username: admin
+password: 123
 
-на одной странице списка пользователей
-отображается 10 пользователей,
-если количество больше 10, то появляется пагинация
+10 users displayed on 1 page, if amount of users
+greater than 10, then pagination appears
